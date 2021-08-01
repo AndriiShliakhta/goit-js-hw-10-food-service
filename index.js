@@ -1,6 +1,6 @@
 // ========= Ссылки ==========
-import getMarkupMenu from './menu.json';
-import template from './templates/menuItem.hbs';
+import getMarkupMenu from './src/menu.json';
+import template from './src/templates/menuItem.hbs';
 
 const checkBox = document.querySelector('#theme-switch-toggle');
 const elementBody = document.querySelector('body');

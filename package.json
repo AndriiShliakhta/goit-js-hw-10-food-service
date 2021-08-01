@@ -11,8 +11,8 @@
     "parcel-plugin-nuke-dist": "^1.0.1"
   },
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build  src/*.html --public-url /goit-js-hw-10-food-service/",
+    "dev": "parcel *.html",
+    "build": "parcel build  *.html --public-url /goit-js-hw-10-food-service/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
